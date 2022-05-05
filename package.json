@@ -1,0 +1,42 @@
+{
+  "name": "quasar-mqtt",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app communicating with a mqtt broker",
+  "productName": "Quasar - Mqtt",
+  "author": "abbjetmus <jeton.mustini@abbgymnasiet.se>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "core-js": "^3.6.5",
+    "mqtt": "^4.3.7",
+    "quasar": "^2.0.0",
+    "url": "^0.11.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@quasar/app": "^3.0.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
